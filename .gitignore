@@ -1,0 +1,8 @@
+node_modules/
+.freebuff/
+.cert/
+data/jwt-secret.key
+data/*.db
+data/*.db-journal
+*.log
+.DS_Store

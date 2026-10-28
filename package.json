@@ -1,0 +1,19 @@
+{
+  "name": "online-course-registration-system",
+  "version": "1.0.0",
+  "description": "Web-based Online Course Registration System with RESTful API for students and administrators",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test test/api.test.js test/security.test.js"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "license": "MIT"
+}
